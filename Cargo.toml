@@ -1,0 +1,16 @@
+[package]
+name = "how-to-impl-unit-of-work-in-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+async-trait = "0.1.73"
+derive-new = "0.6.0"
+sea-orm = { version = "0.12.0", features = [
+    "sqlx-postgres",
+    "runtime-tokio-native-tls",
+    "macros",
+] }
