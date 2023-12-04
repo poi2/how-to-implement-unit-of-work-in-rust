@@ -109,27 +109,27 @@ mod infrastructure {
     }
 
     async fn create_user(_user: User, _txn: &DatabaseTransaction) -> Result<(), DbErr> {
-        todo!()
+        unimplemented!()
     }
 
     async fn update_user(_user: User, _txn: &DatabaseTransaction) -> Result<(), DbErr> {
-        todo!()
+        unimplemented!()
     }
 
     async fn delete_user(_user: User, _txn: &DatabaseTransaction) -> Result<(), DbErr> {
-        todo!()
+        unimplemented!()
     }
 
     async fn create_shop(_shop: Shop, _txn: &DatabaseTransaction) -> Result<(), DbErr> {
-        todo!()
+        unimplemented!()
     }
 
     async fn update_shop(_shop: Shop, _txn: &DatabaseTransaction) -> Result<(), DbErr> {
-        todo!()
+        unimplemented!()
     }
 
     async fn delete_shop(_shop: Shop, _txn: &DatabaseTransaction) -> Result<(), DbErr> {
-        todo!()
+        unimplemented!()
     }
 
     impl UserRepository for DatabaseClient {

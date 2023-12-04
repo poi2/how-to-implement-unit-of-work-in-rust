@@ -105,45 +105,45 @@ mod infrastructure {
     #[async_trait]
     impl UserRepository for UnitOfWorkImpl {
         async fn create_user(&self, _user: User) -> anyhow::Result<User> {
-            todo!()
+            unimplemented!()
         }
 
         async fn update_user(&self, _user: User) -> anyhow::Result<User> {
-            todo!()
+            unimplemented!()
         }
 
         async fn delete_user(&self, _user: User) -> anyhow::Result<()> {
-            todo!()
+            unimplemented!()
         }
     }
 
     #[async_trait]
     impl ShopRepository for UnitOfWorkImpl {
         async fn create_shop(&self, _shop: Shop) -> anyhow::Result<Shop> {
-            todo!()
+            unimplemented!()
         }
 
         async fn update_shop(&self, _shop: Shop) -> anyhow::Result<Shop> {
-            todo!()
+            unimplemented!()
         }
 
         async fn delete_shop(&self, _shop: Shop) -> anyhow::Result<()> {
-            todo!()
+            unimplemented!()
         }
     }
 
     #[async_trait]
     impl OrderRepository for UnitOfWorkImpl {
         async fn create_order(&self, _order: Order) -> anyhow::Result<Order> {
-            todo!()
+            unimplemented!()
         }
 
         async fn update_order(&self, _order: Order) -> anyhow::Result<Order> {
-            todo!()
+            unimplemented!()
         }
 
         async fn delete_order(&self, _order: Order) -> anyhow::Result<()> {
-            todo!()
+            unimplemented!()
         }
     }
 }
